@@ -1,0 +1,15 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="{% static 'main/style.css' %}" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Interstellar Code</title>
+  </head>
+  <body>
+    <h1>{{ post.title}}</h1>
+    <div><p>{{post.detail}}</p></div>
+  </body>
+</html>
